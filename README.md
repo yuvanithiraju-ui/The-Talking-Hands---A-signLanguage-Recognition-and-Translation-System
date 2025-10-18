@@ -19,3 +19,22 @@ This enables more inclusive and accessible interactions in everyday settings, ed
 - UI: simple desktop or web interface (e.g. Tkinter, Streamlit, Flask, or a browser-based UI).  
 - Model: e.g., convolutional neural networks (CNNs) for hand-shape recognition, or pose/landmark-based models.  
 - Optional: Text-to-speech (TTS) engine for spoken translation output.
+
+
+# How to Run
+# 1. Clone the repository
+git clone https://github.com/yuvanithiraju-ui/The-Talking-Hands---A-signLanguage-Recognition-and-Translation-System.git
+cd The-Talking-Hands---A-signLanguage-Recognition-and-Translation-System
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the application
+python app.py
+
+# 4. Usage
+# - Allow webcam access
+# - Show ISL gestures in front of the camera
+# - Detected signs will appear as text and be read aloud
+# - Switch languages/voices if supported in the interface
+
