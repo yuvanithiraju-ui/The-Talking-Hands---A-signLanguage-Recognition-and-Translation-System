@@ -1,32 +1,24 @@
-# Core dependencies
-numpy>=1.26.0
-pandas>=2.2.0
-matplotlib>=3.9.0
-scikit-learn>=1.5.0
+# --- Core Deep Learning & Computer Vision ---
+tensorflow==2.16.1
+keras==3.3.3
+opencv-python==4.9.0.80
+numpy==1.26.4
 
-# Deep Learning / Model Training
-tensorflow>=2.15.0
-keras>=3.0.0
+# --- Hand Tracking & Utilities ---
+cvzone==1.6.1
+mediapipe==0.10.14  # Often implicitly used by cvzone/tensorflow
+Pillow==10.3.0     # Required for PIL/ImageTk (Tkinter image handling)
 
-# Computer Vision
-opencv-python>=4.10.0
-mediapipe>=0.10.14
+# --- Text-to-Speech (TTS) & Audio Playback ---
+pyttsx3==2.90
+gTTS==2.5.1
+playsound==1.3.0
 
-# Audio Output
-pyttsx3>=2.90
-gTTS>=2.5.0
-playsound>=1.3.0
+# --- Natural Language Processing (NLP) & Translation ---
+pyenchant==3.2.2   # Used for word suggestion/dictionary checks
+googletrans==4.0.0-rc1 # Translator library
 
-# Web Interface (optional, if using Flask)
-Flask>=3.0.0
-flask-cors>=4.0.0
-
-# Utilities
-joblib>=1.4.2
-tqdm>=4.66.0
-Pillow>=10.0.0
-
-# NLP (for text suggestion or correction)
-nltk>=3.9.0
-transformers>=4.44.0
-sentencepiece>=0.2.0
+# --- GUI Framework ---
+# Tkinter is built into standard Python installations and does not require a separate installation,
+# but the following might be needed for the PIL/Pillow integration.
+# pillow is listed above.
